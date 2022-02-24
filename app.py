@@ -1,7 +1,7 @@
 import telebot
 from telebot import types
 import requests
-bot=telebot.TeleBot(input('Enter Token :'))
+bot=telebot.TeleBot('5243212151:AAGnGV8RFLrrY1MdbhOYUXKUvtsOFvtSXQU')
 @bot.message_handler(commands=['start'])
 def Start(message):
     if message.chat.type == 'private':
